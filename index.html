@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Pacifico&family=Raleway:wght@700;900&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="js/leaflet.css">
+    <link rel="stylesheet" href="musique.css">
+    <script src="js/leaflet-src.js"></script>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+     
+    </style>
+    <script>
+
+    </script>
+<title>Carte des chansons fran&ccedil;aises</title>
+</head>
+<body>
+  <div id="mapid" style="height:99vh;"></div>
+  <div id="mainTitle" class="legende">
+    <span class="titre">La carte mondiale des chansons francophones</span><br>o&ugrave; chaque ville est repr&eacute;sent&eacute;e proportionnellement au nombre de fois o&ugrave; elle est cit&eacute;e dans le titre d'une chanson en langue fran&ccedil;aise.
+    <br><br> Les donn&eacute;es sont tir&eacute;es de cette page <a href="https://fr.wikipedia.org/wiki/Liste_de_chansons_francophones_dont_le_titre_comporte_le_nom_d%27une_ville" target="_new">Wikipedia</a>. Pour proposer de nouveaux titres, commentez le projet sur mon <a href="https://github.com/mickaelmarchese" target="_new">github</a>.
+    <div class="boutonMoins"><img src="img/minus.svg" width="24px" onclick="collapse()" style="transform: rotate(-45deg);"></div>
+</div>
+<div id="description">
+    Survolez les <span class="ville">villes</span> pour connaitre les chansons associ&eacute;es
+</div>
+    <script src="js/musique.js"></script>
+</body>
+</html>

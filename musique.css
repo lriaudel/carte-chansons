@@ -1,0 +1,70 @@
+.legende {
+    position: fixed;
+    top: 18px;
+    left:50%;
+    margin-left:-250px;
+    padding: 5px 20px;
+    width: 500px;
+    background-color: #80c4d6DD;
+    border: none;
+    border-radius: 5px;
+    z-index: 314159;
+    font-family: DM Serif Display, serif;
+    font-weight: 500;
+    color:#f2efe9;
+    font-size: 14pt;
+    text-align: left;
+    }
+    .legende .titre{
+    font-weight: 900;
+    font-size: 18pt;
+    color:#444;
+    }
+    #description
+    {
+    font-family: Roboto Slab, serif;
+    width:400px;
+    margin:0 auto;
+    background:#80c4d6DD;
+    padding: 5px 20px;
+    position:absolute;
+    left:50%;
+    bottom:5px;
+    margin-left:-200px;
+    margin-top:-200px;
+    z-index: 314159;
+    max-height: 200px;
+    overflow:auto;
+    color:#444;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    }
+    .ville{
+        font-family:DM Serif Display;
+        font-size: 14pt;
+        text-align: center;
+        /*color: #B37596;*/
+        color: #F086A3;
+    }
+    #songlist{
+        
+        font-family: Roboto Slab;
+        fon
+        t-size: 10pt;
+    }
+    #songlist img{
+        width: 16px;
+        height: 16px;
+        float: right;
+    }
+    .songtitle{
+        color:#f2efe9;
+        font-size: 12pt;
+    }
+    a{
+        color:#f2efe9;
+    }
+    .boutonMoins{
+        float: right;
+        margin-top: 32px;
+    }
